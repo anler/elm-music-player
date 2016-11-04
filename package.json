@@ -1,0 +1,42 @@
+{
+  "name": "elm-music-player",
+  "description": "Taller Elm Music Player",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Anler Hernández Peral",
+  "private": true,
+  "repository": {
+    "url": "https://github.com/haskellMAD/elm-music-player",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node server",
+    "build": "rimraf dist && webpack"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "bootstrap-sass": "^3.3.6",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "elm": "^0.17.0",
+    "elm-css-webpack-loader": "^2.0.1",
+    "elm-hot-loader": "^0.3.2",
+    "elm-webpack-loader": "^3.0.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.17.0",
+    "jquery": "^3.1.0",
+    "node-sass": "^3.7.0",
+    "postcss-loader": "^0.10.1",
+    "rimraf": "^2.5.2",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.2.0",
+    "webpack-merge": "^0.14.1"
+  },
+  "main": "index.js"
+}

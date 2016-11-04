@@ -1,0 +1,14 @@
+body, html {
+  background-color: #f40;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 600px;
+  transform: translate(-50%, -15%);
+}
